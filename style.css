@@ -9,7 +9,8 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: white;
+  background: linear-gradient(#000, #6d6d6d);
+  border-radius: 6px;
 }
 
 body {
