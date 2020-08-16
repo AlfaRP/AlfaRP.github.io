@@ -298,6 +298,9 @@ a:active {
   overflow: hidden;
 }
 .page__introduction .header__info .liquid:hover
+{
+   top: -120px;
+}
 .page__introduction .header__info .liquid:before,
 .page__introduction .header__info .liquid::after
 {
