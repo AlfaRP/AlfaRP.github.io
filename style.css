@@ -288,52 +288,20 @@ a:active {
   margin-bottom: 5px;
 }
 
-.page__introduction .header__info .liquid {
-  background: #4973ff;
+.page__introduction .header__info .button {
+  background-color: #1d1f20;
   margin-top: 45px;
   padding: 15px 26px 15px 26px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  border: 2px solid white;
   border-radius: 30px;
-  box-shadow: inset 0 0 50px rgba(0,0,0,.5);
-  transition: 0.5s;
-  overflow: hidden;
-}
-.page__introduction .header__info .liquid:hover
-{
-   top: -120px;
-}
-.page__introduction .header__info .liquid:before,
-.page__introduction .header__info .liquid::after
-{
-  content: '';
-  width: 200%;
-  height: 200%;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -75%);
-}
-.page__introduction .header__info .liquid:before
-{
-  border-radius: 45%;
-  background: rgba(20,20,20,1);
-  animation: animate 5s linear infinite;
-}
-.page__introduction .header__info .liquid::after
-{
-  border-radius: 40%;
-  background: rgba(20,20,20,0.5);
-  animation: animate 10s linear infinite;
 }
 
-@keyframes animate
-{
-  0%
-  {
-    transform: translate(-50%,-75%) rotate(0deg);
-  }
-  100%
-  {
-    transform: translate(-50%,-75%) rotate(360deg);
-  }
+.page__introduction .header__info .button:hover {
+  -webkit-box-shadow: -20px 0 55px 2px rgba(255, 255, 255, 0.521), 20px 0 55px 2px rgba(255, 255, 255, 0.521);
+          box-shadow: -20px 0 55px 2px rgba(255, 255, 255, 0.521), 20px 0 55px 2px rgba(255, 255, 255, 0.521);
+  background-color: #2a2c2e;
 }
 
 @media screen and (max-width: 1000px) {
