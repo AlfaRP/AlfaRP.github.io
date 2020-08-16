@@ -294,7 +294,7 @@ a:active {
   display: block;
   margin: 0 auto;
   text-shadow: 0 0 80px rgba(255,255,255,0.5);
-  background: url(animated_text_fill.png);
+  background: url(img/fondo.png);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: slide 80s linear infinite;
