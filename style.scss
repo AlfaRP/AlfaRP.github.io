@@ -220,10 +220,40 @@ a:active {text-decoration: none}
         left: 50%;
         transform: translate(-50%,-50%);
         width: 100%;
-        h1{
-            font-size: 50px;
-            margin-bottom: 5px;
+          h1{
+            border: 4px double rgb(255,255,255,0.25);
+            border-width: 4px 0;
+            padding: 25px 0px;
+          }
+          h1 span{
+            font: 700 4em/1 "Oswals", sans-serif;
+            letter-spacing: 0;
+            display: block;
+            margin: 0 auto;
+            text-shadow: 0 0 80px rgba(255,255,255,0.5);
+            background: url(animated_text_fill.png);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-animation: slide 80s linear infinite;
+            -webkit-transform: translate3d(0,0,0);
+            -webkit-backface-visibility: hidden;
+          }
+          @-webkit-keyframes slide{
+            0%{
+              background-position: 0% 50%;
+            }
+            100%{
+              background-position: 100% 50%;
+            }
+          }
+        .navigation__desktop{
+            li{
+                display: none;
+            }
         }
+    }
+
+}
 .button{
             background-color: $main-color;
             margin-top: 45px;
