@@ -224,17 +224,14 @@ a:active {text-decoration: none}
             font-size: 50px;
             margin-bottom: 5px;
         }
-        .button{
+.liquid{
             background-color: $main-color;
             margin-top: 45px;
             padding: 15px 26px 15px 26px;
-            transition: .5s ease-in-out;
-            border:  2px solid white;
             border-radius: 30px;
             &:hover{
-                box-shadow: -20px 0 55px 2px rgba(255, 255, 255, 0.521), 20px 0 55px 2px rgba(255, 255, 255, 0.521);
-                background-color: $second-color;
-            }
+            top: -120px;
+            
         }
     }
 }
