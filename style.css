@@ -187,6 +187,63 @@ a:active {
         left: 100%;
   }
 
+.page__introduction li span{
+       position: absolute;
+       display: block;
+       transition: 0.5s ease;
+  }
+ .page__introduction li span:nth-child(1){
+       top: 0;
+       left: 0;
+       width: 0;
+       height: 1px;
+       background: #fff;
+  }
+  
+ .page__introduction li:hover span:nth-child(1){
+       width: 100%;
+       transform: translateX(100%);
+  }
+  
+  .page__introduction li span:nth-child(3){
+       bottom: 0;
+       right: 0;
+       width: 0;
+       height: 1px;
+       background: #fff;
+  }
+  
+ .page__introduction li:hover span:nth-child(3){
+       width: 100%;
+       transform: translateX(-100%);
+  }
+  
+  .page__introduction li span:nth-child(2){
+       top: 0;
+       left: 0;
+       width: 1px;
+       height: 0;
+       background: #fff;
+  }
+  
+ .page__introduction li:hover span:nth-child(2){
+       height: 100%;
+       transform: translateY(100%);
+  }
+  
+  .page__introduction li span:nth-child(4){
+       bottom: 0;
+       left: 0;
+       width: 1px;
+       height: 0;
+       background: #fff;
+  }
+  
+ .page__introduction li:hover span:nth-child(4){
+       height: 100%;
+       transform: translateY(-100%);
+  }
+
 .page__introduction li .navigation__link {
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
