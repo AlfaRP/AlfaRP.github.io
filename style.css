@@ -141,7 +141,7 @@ a:active {
 
 .page__introduction li{
         font-family: 'Work Sans', sans-serif;
-        position: relative;
+        position: absolute;
         text-decoration: none;
         color: #fff;
         font-size: 1em;
