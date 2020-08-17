@@ -276,7 +276,7 @@ a:active {
 }
 
 .page__introduction .header__info h1 {
-  border: 4px double rgb(255,255,255,0.25);
+  border: 6px double rgb(255,255,255,0.75);
   border-width: 4px 0;
   padding: 25px 0px;
 }
@@ -289,7 +289,7 @@ a:active {
   text-shadow: 0 0 80px rgba(255,255,255,0.5);
   background: url(img/fondo.png);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: rgb(255,255,255);
+  -webkit-text-fill-color: transparent;
   -webkit-animation: slide 80s linear infinite;
   -webkit-transform: translate3d(0,0,0);
   -webkit-backface-visibility: hidden;
