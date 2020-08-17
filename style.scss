@@ -106,105 +106,15 @@ a:active {text-decoration: none}
     }
   
     li{
-        position: relative;
-        text-decoration: none;
-        color: #fff;
-        font-size: 1em;
-        text-transform: uppercase;
         width: 150px;
         @include flex-center();
         .navigation__link{
             transition: .3s ease-in-out;
             &:hover{
                 color: rgb(182, 182, 182);
-        padding: 25px 30px;
-        overflow: hidden;
-        background: rgba(255,255,255,.1);
-        box-shadow: 0 5px 5px rgba(0,0,0,.2);
+            }
+        }
     }
-  li:before
-  {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 50%;
-        height: 100%;
-        background: rgba(255,255,255,.1);
-  }
-  li:after
-  {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);
-        transition: 0.5s;
-        transition-delay: 0.5s;
-  }
-  li:hover:after
-  {
-        left: 100%;
-  }
-  li span{
-       position: absolute;
-       display: block;
-       transition: 0.5s ease;
-  }
-  li span:nth-child(1){
-       top: 0;
-       left: 0;
-       width: 0;
-       height: 1px;
-       background: #fff;
-  }
-  
-  li:hover span:nth-child(1){
-       width: 100%;
-       transform: translateX(100%);
-  }
-  
-    li span:nth-child(3){
-       bottom: 0;
-       right: 0;
-       width: 0;
-       height: 1px;
-       background: #fff;
-  }
-  
-  li:hover span:nth-child(3){
-       width: 100%;
-       transform: translateX(-100%);
-  }
-  
-    li span:nth-child(2){
-       top: 0;
-       left: 0;
-       width: 1px;
-       height: 0;
-       background: #fff;
-  }
-  
-  li:hover span:nth-child(2){
-       height: 100%;
-       transform: translateY(100%);
-  }
-  
-    li span:nth-child(4){
-       bottom: 0;
-       left: 0;
-       width: 1px;
-       height: 0;
-       background: #fff;
-  }
-  
-  li:hover span:nth-child(4){
-       height: 100%;
-       transform: translateY(-100%);
-  }
-  
     .style__img{
         position: absolute;
         left: 0;
