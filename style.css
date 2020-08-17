@@ -140,21 +140,13 @@ a:active {
 }
 
 .page__introduction li{
+        font-family: 'Work Sans', sans-serif;
         position: relative;
         text-decoration: none;
         color: #fff;
         font-size: 1em;
         text-transform: uppercase;
         width: 150px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-          -ms-flex-pack: center;
-            justify-content: center;
-        -webkit-box-align: center;
-          -ms-flex-align: center;
-            align-items: center;
         padding: 25px 30px;
         overflow: hidden;
         background: rgba(255,255,255,.1);
@@ -289,14 +281,15 @@ a:active {
   padding: 25px 0px;
 }
 .page__introduction .header__info h1{
-  font: 700 4em/1 "Oswals", sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 50px;
   letter-spacing: 0;
   display: block;
   margin: 0 auto;
   text-shadow: 0 0 80px rgba(255,255,255,0.5);
   background: url(img/fondo.png);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgb(255,255,255);
   -webkit-animation: slide 80s linear infinite;
   -webkit-transform: translate3d(0,0,0);
   -webkit-backface-visibility: hidden;
