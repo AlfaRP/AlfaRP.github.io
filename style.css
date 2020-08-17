@@ -141,10 +141,10 @@ a:active {
 
 .page__introduction li{
         font-family: 'Work Sans', sans-serif;
-        position: absolute;
+        position: relative;
         text-decoration: none;
         color: #fff;
-        font-size: 1em;
+        font-size: 2em;
         text-transform: uppercase;
         width: 150px;
         padding: 25px 30px;
