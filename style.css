@@ -112,7 +112,7 @@ a:active {
 }
 
 .page__introduction .header__arrow img {
-  height: 70px;
+  height: 60px;
 }
 
 .page__introduction .header__arrow:hover {
@@ -144,7 +144,7 @@ a:active {
         position: relative;
         text-decoration: none;
         color: #fff;
-        font-size: 2em;
+        font-size: 1em;
         text-transform: uppercase;
         width: 150px;
         padding: 25px 30px;
