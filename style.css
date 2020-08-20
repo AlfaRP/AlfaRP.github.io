@@ -277,6 +277,7 @@ a:active {
 .header__info{
  position: relative;
  max-width:600px;
+   text-shadow: 2px 2px rgb(0,0,0);
  padding: 50px;
  background: rgba(255,255,255,.2);
  box-shadow: 0 5px 15px rgba(0,0,0,.5);
@@ -311,6 +312,7 @@ a:active {
 .page__introduction .header__info .button {
           font-family: 'Work Sans', sans-serif;
         position: relative;
+        text-shadow: none;
         text-decoration: none;
         color: rgb(0, 0, 0);
         font-size: 1em;
