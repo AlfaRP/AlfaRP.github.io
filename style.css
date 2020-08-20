@@ -349,7 +349,7 @@ a:active {
        display: block;
        transition: 0.5s ease;
   }
- .page__introduction li span:nth-child(1){
+ .page__introduction header__info .button span:nth-child(1){
        top: 0;
        left: 0;
        width: 0;
@@ -357,12 +357,12 @@ a:active {
        background: #fff;
   }
   
- .page__introduction li:hover span:nth-child(1){
+ .page__introduction header__info .button:hover span:nth-child(1){
        width: 100%;
        transform: translateX(100%);
   }
   
-  .page__introduction li span:nth-child(3){
+  .page__introduction header__info .button span:nth-child(3){
        bottom: 0;
        right: 0;
        width: 0;
@@ -370,12 +370,12 @@ a:active {
        background: #fff;
   }
   
- .page__introduction li:hover span:nth-child(3){
+ .page__introduction header__info .button:hover span:nth-child(3){
        width: 100%;
        transform: translateX(-100%);
   }
   
-  .page__introduction li span:nth-child(2){
+  .page__introduction header__info .button span:nth-child(2){
        top: 0;
        left: 0;
        width: 1px;
@@ -383,12 +383,12 @@ a:active {
        background: #fff;
   }
   
- .page__introduction li:hover span:nth-child(2){
+ .page__introduction header__info .button:hover span:nth-child(2){
        height: 100%;
        transform: translateY(100%);
   }
   
-  .page__introduction li span:nth-child(4){
+  .page__introduction header__info .button span:nth-child(4){
        bottom: 0;
        left: 0;
        width: 1px;
@@ -396,7 +396,7 @@ a:active {
        background: #fff;
   }
   
- .page__introduction li:hover span:nth-child(4){
+ .page__introduction header__info .button:hover span:nth-child(4){
        height: 100%;
        transform: translateY(-100%);
   }
