@@ -312,6 +312,7 @@ a:active {
 .page__introduction .header__info .button {
           font-family: 'Work Sans', sans-serif;
         position: relative;
+        color: rgb(0,0,0);
         text-shadow: none;
         text-decoration: none;
         color: rgb(0, 0, 0);
