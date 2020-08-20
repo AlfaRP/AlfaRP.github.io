@@ -312,7 +312,7 @@ a:active {
           font-family: 'Work Sans', sans-serif;
         position: relative;
         text-decoration: none;
-        color: #fff;
+        color: rgb(0, 0, 0);
         font-size: 1em;
         text-transform: uppercase;
         width: 150px;
