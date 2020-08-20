@@ -274,7 +274,13 @@ a:active {
           transform: translate(-50%, -50%);
   width: 100%;
 }
-
+.header__info{
+ position: relative;
+ max-width:600px;
+ padding: 50px;
+ background: rgba(255,255,255,.2);
+ box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
 .page__introduction .header__info h1 {
   border: 6px double rgb(255,255,255,0.75);
   border-width: 4px 0;
