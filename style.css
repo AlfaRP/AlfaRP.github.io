@@ -344,7 +344,7 @@ a:active {
   {
         left: 100%;
   }
-.page__introduction li span{
+.page__introduction header__info .button span{
        position: absolute;
        display: block;
        transition: 0.5s ease;
