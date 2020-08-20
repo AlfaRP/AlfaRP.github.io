@@ -321,7 +321,7 @@ a:active {
   border-radius: 30px;
         overflow: hidden;
         background: rgba(255,255,255,.1);
-        box-shadow: 0 5px 5px rgba(0,0,0,.2);
+        box-shadow: 0 5px 15px rgba(0,0,0,.7);
 }
 
   .page__introduction .header__info .button:before
